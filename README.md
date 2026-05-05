@@ -67,7 +67,7 @@ The training workflow follows:
 5. Attach frozen forward model (ResNet50)
 6. Train tandem network using:
 
-
+```markdown
 generative-tandem-nn-nanophotonic-color-splitters/
 ├── models/
 │   ├── inverse_network_tuner.py
@@ -76,11 +76,13 @@ generative-tandem-nn-nanophotonic-color-splitters/
 │   ├── train_inverse.py
 │   ├── train_forward.py
 
+```
 ---
 
 ### Citation
-If you use this repository in your research, please cite the following work:
+If you find this work useful in your research, please cite:
 
+```bibtex
 @article{acharige2025generative,
   title={Generative tandem neural network for optimization of nanophotonic color splitters},
   author={Acharige, Didulani and Johlin, Eric},
@@ -91,3 +93,21 @@ If you use this repository in your research, please cite the following work:
   year={2025},
   publisher={IOP Publishing}
 }
+```
+---
+
+## Data Access
+
+* **Dataset**: The full FDTD simulation dataset is available upon reasonable request.
+* **Usage**: Please contact the author for inquiries regarding commercial use or collaborative research.
+
+---
+
+## Contact
+
+**Didulani Acharige**
+Department of Mechanical and Materials Engineering
+Western University
+Email: [dsalwath@uwo.ca](mailto:dsalwath@uwo.ca)
+
+
